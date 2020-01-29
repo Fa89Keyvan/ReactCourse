@@ -12,11 +12,6 @@ export default class SideBar extends Component {
     return (
       <Router>
         <MainMenu />
-        <Switch>
-          <Route exact path="/"           component={Dashboard} />
-          <Route exact path="/SessionOne" component={SessionOne} />
-          <Route exact path="/SessionTwo" component={CoursesForm} />
-        </Switch>
       </Router>
     )
   }
